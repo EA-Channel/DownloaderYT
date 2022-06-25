@@ -42,7 +42,7 @@ $data = "v_id=$vid&ftype=$f&fquality=$q&fname=$title&token=$token&timeExpire=$ti
 $get = curl($url,$data);
 echo $get;
 $msg = "
-$size | $q | <a href='$linkdl' > Download </a>";
+$size | $q | <a href='$linkdl' > Download </a> ";
 save($msg);
 }
 ?>
